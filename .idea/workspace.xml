@@ -1,0 +1,255 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="123c8c29-2b0e-4d26-bb2d-93ac1a74ed8c" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeStyleSettingsInfer">
+    <option name="done" value="true" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/JorgeLopez-Patrones" />
+  </component>
+  <component name="ProjectCodeStyleSettingsMigration">
+    <option name="version" value="1" />
+  </component>
+  <component name="ProjectId" id="1cDOBpTbK5kcl5WF5rqE9I0uVUP" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="show.unlinked.gradle.project.popup" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Jorge Lopez\Documents\GitHub\PatronesDeDiseno\patronesDiseno2020\src\main\java\JorgeLopez\Ejericios\Mediator" />
+      <recent name="C:\Users\Jorge Lopez\Documents\GitHub\PatronesDeDiseno\patronesDiseno2020\src\main\java\JorgeLopez\Ejericios\Iterator" />
+      <recent name="C:\Users\Jorge Lopez\Documents\GitHub\PatronesDeDiseno\patronesDiseno2020\src\main\java\abstractFactory\ejercicios\ej1" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Jorge Lopez\Documents\GitHub\PatronesDeDiseno\patronesDiseno2020\src\main\java\prototype\ejercicios\ClassExercise" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.Cliente">
+    <configuration name="Client (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="JorgeLopez.Ejericios.Mediator.Client" />
+      <module name="patronesDiseno2020.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="JorgeLopez.Ejericios.Mediator.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="mediator.basic.Client" />
+      <module name="patronesDiseno2020.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="mediator.basic.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Cliente (3)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="interpreter.ejercicios.ej1.Cliente" />
+      <module name="patronesDiseno2020.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="interpreter.ejercicios.ej1.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Cliente (4)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="JorgeLopez.Ejericios.Iterator.Cliente" />
+      <module name="patronesDiseno2020.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="JorgeLopez.Ejericios.Iterator.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Cliente" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="JorgeLopez.Ejericios.ejercicio4.Cliente" />
+      <module name="patronesDiseno2020.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="JorgeLopez.Ejericios.ejercicio4.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Cliente" />
+        <item itemvalue="Application.Client (1)" />
+        <item itemvalue="Application.Client" />
+        <item itemvalue="Application.Cliente (4)" />
+        <item itemvalue="Application.Cliente (3)" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="123c8c29-2b0e-4d26-bb2d-93ac1a74ed8c" name="Default Changelist" comment="" />
+      <created>1590059564043</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1590059564043</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="137" y="18" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1590066837463">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="137" y="18" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.728@0.0.1366.728" timestamp="1590066837463" />
+    <state x="437" y="165" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1590352646941">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="437" y="165" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1366.728@0.0.1366.728" timestamp="1590352646941" />
+    <state x="488" y="70" key="#com.intellij.ide.util.MemberChooser" timestamp="1590669122338">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="488" y="70" key="#com.intellij.ide.util.MemberChooser/0.0.1366.728@0.0.1366.728" timestamp="1590669122338" />
+    <state x="252" y="288" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1590539544442">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="252" y="288" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.0.1366.728@0.0.1366.728" timestamp="1590539544442" />
+    <state x="413" y="110" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1590539509366">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="413" y="110" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1366.728@0.0.1366.728" timestamp="1590539509366" />
+    <state x="463" y="118" key="FileChooserDialogImpl" timestamp="1590664104253">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="463" y="118" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1590664104253" />
+    <state width="1323" height="331" key="GridCell.Tab.0.bottom" timestamp="1590671234574">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="331" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1590671234574" />
+    <state width="1323" height="331" key="GridCell.Tab.0.center" timestamp="1590671234574">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="331" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1590671234574" />
+    <state width="1323" height="331" key="GridCell.Tab.0.left" timestamp="1590671234574">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="331" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1590671234574" />
+    <state width="1323" height="331" key="GridCell.Tab.0.right" timestamp="1590671234574">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="331" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1590671234574" />
+    <state width="1323" height="223" key="GridCell.Tab.1.bottom" timestamp="1590407091773">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="223" key="GridCell.Tab.1.bottom/0.0.1366.728@0.0.1366.728" timestamp="1590407091773" />
+    <state width="1323" height="223" key="GridCell.Tab.1.center" timestamp="1590407091772">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="223" key="GridCell.Tab.1.center/0.0.1366.728@0.0.1366.728" timestamp="1590407091772" />
+    <state width="1323" height="223" key="GridCell.Tab.1.left" timestamp="1590407091772">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="223" key="GridCell.Tab.1.left/0.0.1366.728@0.0.1366.728" timestamp="1590407091772" />
+    <state width="1323" height="223" key="GridCell.Tab.1.right" timestamp="1590407091773">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="223" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1590407091773" />
+    <state x="571" y="231" width="389" height="265" key="MultipleFileMergeDialog" timestamp="1590539485250">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="571" y="231" width="389" height="265" key="MultipleFileMergeDialog/0.0.1366.728@0.0.1366.728" timestamp="1590539485250" />
+    <state x="499" y="141" key="chooseDestDirectoryDialog" timestamp="1590356401542">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="499" y="141" key="chooseDestDirectoryDialog/0.0.1366.728@0.0.1366.728" timestamp="1590356401542" />
+    <state x="833" y="281" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1590667211737">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="833" y="281" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1366.728@0.0.1366.728" timestamp="1590667211737" />
+    <state x="390" y="0" width="585" height="728" key="find.popup" timestamp="1590631653463">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="390" y="0" width="585" height="728" key="find.popup/0.0.1366.728@0.0.1366.728" timestamp="1590631653463" />
+    <state x="484" y="270" key="git4idea.remote.GitConfigureRemotesDialog" timestamp="1590671964992">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="484" y="270" key="git4idea.remote.GitConfigureRemotesDialog/0.0.1366.728@0.0.1366.728" timestamp="1590671964992" />
+    <state x="688" y="49" width="672" height="678" key="search.everywhere.popup" timestamp="1590371944401">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="688" y="49" width="672" height="678" key="search.everywhere.popup/0.0.1366.728@0.0.1366.728" timestamp="1590371944401" />
+  </component>
+</project>

@@ -1,0 +1,208 @@
+Index: .gitignore
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+># Compiled class file\r\n*.class\r\n\r\n# Log file\r\n*.log\r\n\r\n# BlueJ files\r\n*.ctxt\r\n\r\n# Mobile Tools for Java (J2ME)\r\n.mtj.tmp/\r\n\r\n# Package Files #\r\n*.jar\r\n*.war\r\n*.nar\r\n*.ear\r\n*.zip\r\n*.tar.gz\r\n*.rar\r\n\r\n# virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml\r\nhs_err_pid*\r\n/gradlew\r\n/gradlew.bat\r\n/settings.gradle\r\n/.idea/\r\n/gradle/\r\n/.gradle/\r\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- .gitignore	(revision 69c6c329a39f290bacf82aa24277a6ce5f544c3e)
++++ .gitignore	(date 1590406788365)
+@@ -27,3 +27,9 @@
+ /.idea/
+ /gradle/
+ /.gradle/
++/src/main/java/abstractFactory/ejercicios/ej1/
++/src/main/java/singleton/examples/ej2/
++/src/main/java/prototype/ejercicios/ej2/
++/src/main/java/factoryMethod/ejercicios/ej2/
++/src/main/java/abstractFactory/ejercicios/ej2/
++/src/main/java/abstractFactory/ejercicios/ej2/
+Index: src/main/java/abstractFactory/ejercicios/ej1/IHelado.java
+===================================================================
+--- src/main/java/abstractFactory/ejercicios/ej1/IHelado.java	(revision 69c6c329a39f290bacf82aa24277a6ce5f544c3e)
++++ src/main/java/abstractFactory/ejercicios/ej1/IHelado.java	(revision 69c6c329a39f290bacf82aa24277a6ce5f544c3e)
+@@ -1,5 +0,0 @@
+-package abstractFactory.ejercicios.ej1;
+-
+-public interface IHelado {
+-    void comprar();
+-}
+Index: src/main/java/abstractFactory/ejercicios/ej1/HeladoMixto.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>package abstractFactory.ejercicios.ej1;\r\n\r\npublic class HeladoMixto implements IHelado {\r\n\r\n    String tamano;\r\n    String forma;\r\n    Fruta fruta;\r\n    Base base;\r\n    Crema crema;\r\n\r\n    public HeladoMixto(){}\r\n\r\n    @Override\r\n    public void comprar() {\r\n\r\n    }\r\n\r\n    public String getTamano() {\r\n        return tamano;\r\n    }\r\n\r\n    public void setTamano(String tamano) {\r\n        this.tamano = tamano;\r\n    }\r\n\r\n    public String getForma() {\r\n        return forma;\r\n    }\r\n\r\n    public void setForma(String forma) {\r\n        this.forma = forma;\r\n    }\r\n\r\n    public Fruta getFruta() {\r\n        return fruta;\r\n    }\r\n\r\n    public void setFruta(Fruta fruta) {\r\n        this.fruta = fruta;\r\n    }\r\n\r\n    public Base getBase() {\r\n        return base;\r\n    }\r\n\r\n    public void setBase(Base base) {\r\n        this.base = base;\r\n    }\r\n\r\n    public Crema getCrema() {\r\n        return crema;\r\n    }\r\n\r\n    public void setCrema(Crema crema) {\r\n        this.crema = crema;\r\n    }\r\n}\r\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- src/main/java/abstractFactory/ejercicios/ej1/HeladoMixto.java	(revision 69c6c329a39f290bacf82aa24277a6ce5f544c3e)
++++ src/main/java/abstractFactory/ejercicios/ej1/HeladoMixto.java	(date 1590364660608)
+@@ -1,6 +1,6 @@
+ package abstractFactory.ejercicios.ej1;
+ 
+-public class HeladoMixto implements IHelado {
++public class HeladoMixto implements IIceCreamProduct {
+ 
+     String tamano;
+     String forma;
+@@ -12,7 +12,6 @@
+ 
+     @Override
+     public void comprar() {
+-
+     }
+ 
+     public String getTamano() {
+Index: src/main/java/factoryMethod/ejercicios/ej1/HeladoAgua.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>package factoryMethod.ejercicios.ej1;\r\n\r\npublic class HeladoAgua implements IHelado {\r\n\r\n\r\n    String tamano;\r\n    String forma;\r\n    Fruta fruta;\r\n    Base base;\r\n\r\n\r\n    public HeladoAgua() {\r\n    }\r\n\r\n    @Override\r\n    public void comprar() {\r\n\r\n    }\r\n\r\n    public String getTamano() {\r\n        return tamano;\r\n    }\r\n\r\n    public void setTamano(String tamano) {\r\n        this.tamano = tamano;\r\n    }\r\n\r\n    public String getForma() {\r\n        return forma;\r\n    }\r\n\r\n    public void setForma(String forma) {\r\n        this.forma = forma;\r\n    }\r\n\r\n    public Fruta getFruta() {\r\n        return fruta;\r\n    }\r\n\r\n    public void setFruta(Fruta fruta) {\r\n        this.fruta = fruta;\r\n    }\r\n\r\n    public Base getBase() {\r\n        return base;\r\n    }\r\n\r\n    public void setBase(Base base) {\r\n        this.base = base;\r\n    }\r\n}\r\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- src/main/java/factoryMethod/ejercicios/ej1/HeladoAgua.java	(revision 69c6c329a39f290bacf82aa24277a6ce5f544c3e)
++++ src/main/java/factoryMethod/ejercicios/ej1/HeladoAgua.java	(date 1590362934008)
+@@ -14,7 +14,6 @@
+ 
+     @Override
+     public void comprar() {
+-
+     }
+ 
+     public String getTamano() {
+Index: src/main/java/abstractFactory/ejercicios/ej1/FactoryHelado.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>package abstractFactory.ejercicios.ej1;\r\n\r\npublic class FactoryHelado {\r\n\r\n    public enum heladoType{CREMA,AGUA,MIXTO}\r\n\r\n    public static IHelado make(heladoType type){\r\n        IHelado helado;\r\n\r\n        switch (type){\r\n            case CREMA:\r\n                helado = new HeladoCrema();\r\n                ((HeladoCrema)helado).setBase(new Base(\"triangular\",\"cono\"));\r\n                ((HeladoCrema)helado).setCrema(new Crema(\"dulce\",\"5$\"));\r\n                ((HeladoCrema)helado).setForma(\"circular\");\r\n                ((HeladoCrema)helado).setFruta(new Fruta(\"cirtrico\",\"limon\",\"2$\"));\r\n                ((HeladoCrema)helado).setTamano(\"5\");\r\n                break;\r\n            case AGUA:\r\n                helado= new HeladoAgua();\r\n                ((HeladoAgua)helado).setBase(new Base(\"triangular\",\"cono\"));\r\n                ((HeladoAgua)helado).setForma(\"cono\");\r\n                ((HeladoAgua)helado).setFruta(new Fruta(\"dulce\",\"frutilla\",\"2$\"));\r\n                ((HeladoAgua)helado).setTamano(\"Mediano\");\r\n                break;\r\n            case MIXTO:\r\n                helado= new HeladoMixto();\r\n                ((HeladoMixto)helado).setBase(new Base(\"triangular\",\"cono\"));\r\n                ((HeladoMixto)helado).setCrema(new Crema(\"frutilla\",\"3$\"));\r\n                ((HeladoMixto)helado).setForma(\"cono\");\r\n                ((HeladoMixto)helado).setFruta(new Fruta(\"dulce\",\"frutilla\",\"2$\"));\r\n                ((HeladoMixto)helado).setTamano(\"Mediano\");\r\n                break;\r\n            default:\r\n                helado= new HeladoMixto();\r\n                break;\r\n        }\r\n        return helado;\r\n    }\r\n\r\n}\r\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- src/main/java/abstractFactory/ejercicios/ej1/FactoryHelado.java	(revision 69c6c329a39f290bacf82aa24277a6ce5f544c3e)
++++ src/main/java/abstractFactory/ejercicios/ej1/FactoryHelado.java	(date 1590364660592)
+@@ -4,8 +4,8 @@
+ 
+     public enum heladoType{CREMA,AGUA,MIXTO}
+ 
+-    public static IHelado make(heladoType type){
+-        IHelado helado;
++    public static IIceCreamProduct make(heladoType type){
++        IIceCreamProduct helado;
+ 
+         switch (type){
+             case CREMA:
+Index: src/main/java/abstractFactory/ejercicios/ej1/HeladoAgua.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>package abstractFactory.ejercicios.ej1;\r\n\r\npublic class HeladoAgua implements IHelado {\r\n\r\n\r\n    String tamano;\r\n    String forma;\r\n    Fruta fruta;\r\n    Base base;\r\n\r\n\r\n    public HeladoAgua() {\r\n    }\r\n\r\n    @Override\r\n    public void comprar() {\r\n\r\n    }\r\n\r\n    public String getTamano() {\r\n        return tamano;\r\n    }\r\n\r\n    public void setTamano(String tamano) {\r\n        this.tamano = tamano;\r\n    }\r\n\r\n    public String getForma() {\r\n        return forma;\r\n    }\r\n\r\n    public void setForma(String forma) {\r\n        this.forma = forma;\r\n    }\r\n\r\n    public Fruta getFruta() {\r\n        return fruta;\r\n    }\r\n\r\n    public void setFruta(Fruta fruta) {\r\n        this.fruta = fruta;\r\n    }\r\n\r\n    public Base getBase() {\r\n        return base;\r\n    }\r\n\r\n    public void setBase(Base base) {\r\n        this.base = base;\r\n    }\r\n}\r\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- src/main/java/abstractFactory/ejercicios/ej1/HeladoAgua.java	(revision 69c6c329a39f290bacf82aa24277a6ce5f544c3e)
++++ src/main/java/abstractFactory/ejercicios/ej1/HeladoAgua.java	(date 1590364517790)
+@@ -1,6 +1,6 @@
+ package abstractFactory.ejercicios.ej1;
+ 
+-public class HeladoAgua implements IHelado {
++public class HeladoAgua implements IIceCreamProduct {
+ 
+ 
+     String tamano;
+Index: src/main/java/prototype/ejercicios/ej1/PasajeAvion.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>package prototype.basicStructure.ejercicios.ej1;\r\n\r\n// equivalente ConcretePrototype\r\npublic class PasajeAvion implements IPasaje {\r\n\r\n    private String numeroVuelo;\r\n    private String destino;\r\n    private String origen;\r\n    private String horasDeVuelo;\r\n    private String numeroAsiento;\r\n    private String costo;\r\n    private Persona persona;\r\n\r\n\r\n    @Override\r\n    public Object clone() {\r\n       PasajeAvion objClone= new PasajeAvion();\r\n       objClone.setCosto(this.costo);\r\n       objClone.setDestino(this.destino);\r\n       objClone.setHorasDeVuelo(this.horasDeVuelo);\r\n       objClone.setNumeroAsiento(this.numeroAsiento);\r\n       objClone.setNumeroVuelo(this.numeroVuelo);\r\n       objClone.setPersona(this.persona);\r\n       objClone.setOrigen(this.origen);\r\n       return objClone;\r\n    }\r\n\r\n    public String getNumeroVuelo() {\r\n        return numeroVuelo;\r\n    }\r\n\r\n    public void setNumeroVuelo(String numeroVuelo) {\r\n        this.numeroVuelo = numeroVuelo;\r\n    }\r\n\r\n    public String getDestino() {\r\n        return destino;\r\n    }\r\n\r\n    public void setDestino(String destino) {\r\n        this.destino = destino;\r\n    }\r\n\r\n    public String getOrigen() {\r\n        return origen;\r\n    }\r\n\r\n    public void setOrigen(String origen) {\r\n        this.origen = origen;\r\n    }\r\n\r\n    public String getHorasDeVuelo() {\r\n        return horasDeVuelo;\r\n    }\r\n\r\n    public void setHorasDeVuelo(String horasDeVuelo) {\r\n        this.horasDeVuelo = horasDeVuelo;\r\n    }\r\n\r\n    public String getNumeroAsiento() {\r\n        return numeroAsiento;\r\n    }\r\n\r\n    public void setNumeroAsiento(String numeroAsiento) {\r\n        this.numeroAsiento = numeroAsiento;\r\n    }\r\n\r\n    public String getCosto() {\r\n        return costo;\r\n    }\r\n\r\n    public void setCosto(String costo) {\r\n        this.costo = costo;\r\n    }\r\n\r\n    public Persona getPersona() {\r\n        return persona;\r\n    }\r\n\r\n    public void setPersona(Persona persona) {\r\n        this.persona = persona;\r\n    }\r\n\r\n\r\n    public void showData(){\r\n        System.out.println(\"*******************************\");\r\n        System.out.println(\"numero de vuelo \"+numeroVuelo);\r\n        System.out.println(\"destino \"+destino);\r\n        System.out.println(\"origen \"+origen);\r\n        System.out.println(\"horas de vuelo \"+horasDeVuelo);\r\n        System.out.println(\"numero de asiento \"+numeroAsiento);\r\n        System.out.println(\"costo \"+costo);\r\n        System.out.println(\"nombre persona \"+ persona.getNombre());\r\n        System.out.println(\"ci persona \"+ persona.getCi());\r\n\r\n    }\r\n}\r\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- src/main/java/prototype/ejercicios/ej1/PasajeAvion.java	(revision 69c6c329a39f290bacf82aa24277a6ce5f544c3e)
++++ src/main/java/prototype/ejercicios/ej1/PasajeAvion.java	(date 1590356500103)
+@@ -1,4 +1,4 @@
+-package prototype.basicStructure.ejercicios.ej1;
++package prototype.ejercicios.ej1;
+ 
+ // equivalente ConcretePrototype
+ public class PasajeAvion implements IPasaje {
+Index: src/main/java/prototype/ejercicios/ej1/IPasaje.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>package prototype.basicStructure.ejercicios.ej1;\r\n\r\n// equivalente IPrototype\r\npublic interface IPasaje extends Cloneable {\r\n    Object clone();\r\n}\r\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- src/main/java/prototype/ejercicios/ej1/IPasaje.java	(revision 69c6c329a39f290bacf82aa24277a6ce5f544c3e)
++++ src/main/java/prototype/ejercicios/ej1/IPasaje.java	(date 1590356500196)
+@@ -1,4 +1,4 @@
+-package prototype.basicStructure.ejercicios.ej1;
++package prototype.ejercicios.ej1;
+ 
+ // equivalente IPrototype
+ public interface IPasaje extends Cloneable {
+Index: src/main/java/prototype/ejercicios/ej1/PasajeAutoBus.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>package prototype.basicStructure.ejercicios.ej1;\r\n\r\npublic class PasajeAutoBus implements IPasaje {\r\n    @Override\r\n    public Object clone() {\r\n        return null;\r\n    }\r\n}\r\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- src/main/java/prototype/ejercicios/ej1/PasajeAutoBus.java	(revision 69c6c329a39f290bacf82aa24277a6ce5f544c3e)
++++ src/main/java/prototype/ejercicios/ej1/PasajeAutoBus.java	(date 1590356500243)
+@@ -1,4 +1,4 @@
+-package prototype.basicStructure.ejercicios.ej1;
++package prototype.ejercicios.ej1;
+ 
+ public class PasajeAutoBus implements IPasaje {
+     @Override
+Index: src/main/java/prototype/ejercicios/ej1/Client.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>package prototype.basicStructure.ejercicios.ej1;\r\n\r\npublic class Client {\r\n\r\n    public static void main (String []args){\r\n        PasajeAvion pasaje1= new PasajeAvion();\r\n        pasaje1.setOrigen(\"LPZ\");\r\n        pasaje1.setDestino(\"CBBA\");\r\n        pasaje1.setNumeroVuelo(\"10\");\r\n        pasaje1.setHorasDeVuelo(\"5h\");\r\n        pasaje1.setNumeroAsiento(\"32A\");\r\n        pasaje1.setCosto(\"500bs\");\r\n        pasaje1.setPersona(new Persona(\"juan\",\"123456\"));\r\n\r\n        PasajeAvion pasaje2= (PasajeAvion) pasaje1.clone();\r\n        pasaje2.setNumeroAsiento(\"33B\");\r\n        pasaje2.setPersona(new Persona(\"jose\",\"33333\"));\r\n\r\n        PasajeAvion pasaje3= (PasajeAvion) pasaje1.clone();\r\n        pasaje3.setNumeroAsiento(\"34B\");\r\n        pasaje3.setPersona(new Persona(\"eynar\",\"44444\"));\r\n\r\n        PasajeAvion pasaje4= (PasajeAvion) pasaje1.clone();\r\n        pasaje4.setNumeroAsiento(\"35B\");\r\n        pasaje4.setPersona(new Persona(\"rafael\",\"5555\"));\r\n\r\n        PasajeAvion pasaje5= (PasajeAvion) pasaje1.clone();\r\n        pasaje5.setNumeroAsiento(\"36B\");\r\n        pasaje5.setPersona(new Persona(\"joss\",\"6666\"));\r\n\r\n        pasaje1.showData();\r\n        pasaje2.showData();\r\n        pasaje3.showData();\r\n        pasaje4.showData();\r\n        pasaje5.showData();\r\n    }\r\n}\r\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- src/main/java/prototype/ejercicios/ej1/Client.java	(revision 69c6c329a39f290bacf82aa24277a6ce5f544c3e)
++++ src/main/java/prototype/ejercicios/ej1/Client.java	(date 1590355968194)
+@@ -1,4 +1,4 @@
+-package prototype.basicStructure.ejercicios.ej1;
++package prototype.ejercicios.ej1;
+ 
+ public class Client {
+ 
+Index: src/main/java/abstractFactory/ejercicios/ej1/HeladoCrema.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>package abstractFactory.ejercicios.ej1;\r\n\r\npublic class HeladoCrema implements IHelado {\r\n\r\n    String tamano;\r\n    String forma;\r\n    Fruta fruta;\r\n    Base base;\r\n    Crema crema;\r\n\r\n    public  HeladoCrema (){}\r\n\r\n    @Override\r\n    public void comprar() {\r\n\r\n    }\r\n\r\n    public String getTamano() {\r\n        return tamano;\r\n    }\r\n\r\n    public void setTamano(String tamano) {\r\n        this.tamano = tamano;\r\n    }\r\n\r\n    public String getForma() {\r\n        return forma;\r\n    }\r\n\r\n    public void setForma(String forma) {\r\n        this.forma = forma;\r\n    }\r\n\r\n    public Fruta getFruta() {\r\n        return fruta;\r\n    }\r\n\r\n    public void setFruta(Fruta fruta) {\r\n        this.fruta = fruta;\r\n    }\r\n\r\n    public Base getBase() {\r\n        return base;\r\n    }\r\n\r\n    public void setBase(Base base) {\r\n        this.base = base;\r\n    }\r\n\r\n    public Crema getCrema() {\r\n        return crema;\r\n    }\r\n\r\n    public void setCrema(Crema crema) {\r\n        this.crema = crema;\r\n    }\r\n}\r\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- src/main/java/abstractFactory/ejercicios/ej1/HeladoCrema.java	(revision 69c6c329a39f290bacf82aa24277a6ce5f544c3e)
++++ src/main/java/abstractFactory/ejercicios/ej1/HeladoCrema.java	(date 1590364660576)
+@@ -1,6 +1,6 @@
+ package abstractFactory.ejercicios.ej1;
+ 
+-public class HeladoCrema implements IHelado {
++public class HeladoCrema implements IIceCreamProduct {
+ 
+     String tamano;
+     String forma;
+@@ -12,7 +12,6 @@
+ 
+     @Override
+     public void comprar() {
+-
+     }
+ 
+     public String getTamano() {
+Index: src/main/java/prototype/ejercicios/ej1/Persona.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>package prototype.basicStructure.ejercicios.ej1;\r\n\r\npublic class Persona {\r\n    private String nombre;\r\n    private String ci;\r\n\r\n    public Persona (String nombre, String ci){\r\n        this.nombre= nombre;\r\n        this.ci=ci;\r\n    }\r\n\r\n    public String getNombre() {\r\n        return nombre;\r\n    }\r\n\r\n    public void setNombre(String nombre) {\r\n        this.nombre = nombre;\r\n    }\r\n\r\n    public String getCi() {\r\n        return ci;\r\n    }\r\n\r\n    public void setCi(String ci) {\r\n        this.ci = ci;\r\n    }\r\n}\r\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- src/main/java/prototype/ejercicios/ej1/Persona.java	(revision 69c6c329a39f290bacf82aa24277a6ce5f544c3e)
++++ src/main/java/prototype/ejercicios/ej1/Persona.java	(date 1590356506351)
+@@ -1,4 +1,4 @@
+-package prototype.basicStructure.ejercicios.ej1;
++package prototype.ejercicios.ej1;
+ 
+ public class Persona {
+     private String nombre;
