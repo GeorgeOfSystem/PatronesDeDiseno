@@ -19,7 +19,14 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="123c8c29-2b0e-4d26-bb2d-93ac1a74ed8c" name="Default Changelist" comment="" />
+    <list default="true" id="123c8c29-2b0e-4d26-bb2d-93ac1a74ed8c" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/JorgeLopez-Patrones.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/intellij-javadocs-4.0.1.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_25_5_2020_23_29_[Default_Changelist]/shelved.patch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_25_5_2020_23_29__Default_Changelist_.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -42,7 +49,7 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/JorgeLopez-Patrones" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectCodeStyleSettingsMigration">
     <option name="version" value="1" />
@@ -56,17 +63,20 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
     <property name="show.unlinked.gradle.project.popup" value="true" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Jorge Lopez\Documents\GitHub\PatronesDeDiseno\patronesDiseno2020\src\main\java\prototype\ejercicios\ClassExercise" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Jorge Lopez\Documents\GitHub\PatronesDeDiseno\myGithubPatrones\JorgeLopez-Patrones\src\main\java\ChainOfResponsability" />
       <recent name="C:\Users\Jorge Lopez\Documents\GitHub\PatronesDeDiseno\patronesDiseno2020\src\main\java\JorgeLopez\Ejericios\Mediator" />
       <recent name="C:\Users\Jorge Lopez\Documents\GitHub\PatronesDeDiseno\patronesDiseno2020\src\main\java\JorgeLopez\Ejericios\Iterator" />
       <recent name="C:\Users\Jorge Lopez\Documents\GitHub\PatronesDeDiseno\patronesDiseno2020\src\main\java\abstractFactory\ejercicios\ej1" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\Jorge Lopez\Documents\GitHub\PatronesDeDiseno\patronesDiseno2020\src\main\java\prototype\ejercicios\ClassExercise" />
     </key>
   </component>
   <component name="RunManager" selected="Application.Cliente">
@@ -170,6 +180,11 @@
     </option>
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <ignored-roots>
+      <path value="$PROJECT_DIR$/JorgeLopez-Patrones" />
+    </ignored-roots>
+  </component>
   <component name="WindowStateProjectService">
     <state x="137" y="18" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1590066837463">
       <screen x="0" y="0" width="1366" height="728" />
@@ -191,10 +206,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="413" y="110" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1366.728@0.0.1366.728" timestamp="1590539509366" />
-    <state x="463" y="118" key="FileChooserDialogImpl" timestamp="1590664104253">
+    <state x="463" y="118" key="FileChooserDialogImpl" timestamp="1591199997514">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="463" y="118" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1590664104253" />
+    <state x="463" y="118" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1591199997514" />
     <state width="1323" height="331" key="GridCell.Tab.0.bottom" timestamp="1590671234574">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -231,6 +246,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="571" y="231" width="389" height="265" key="MultipleFileMergeDialog/0.0.1366.728@0.0.1366.728" timestamp="1590539485250" />
+    <state x="184" y="8" key="SettingsEditor" timestamp="1591199967418">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="184" y="8" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1591199967418" />
     <state x="499" y="141" key="chooseDestDirectoryDialog" timestamp="1590356401542">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
