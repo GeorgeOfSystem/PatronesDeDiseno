@@ -2,14 +2,14 @@ package command;
 
 public class Client {
     public static void main (String[]args){
-        Receiver receiver = new Receiver("Juan");
+        Receiver receiver = new Receiver();
 
         Reiniciar reiniciar = new Reiniciar(receiver);
         Apagar apagar = new Apagar(receiver);
         CerrarSesión cerrarSesión = new CerrarSesión(receiver);
         Suspender suspender = new Suspender(receiver);
 
-        Computadora computadora = new Computadora();
+        Computadora computadora = new Computadora("Juan");
 
         // agregando comandos concretos
         computadora.setCommand(reiniciar);

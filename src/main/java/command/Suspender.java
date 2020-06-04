@@ -8,7 +8,7 @@ public class Suspender implements ICommand{
     }
 
     @Override
-    public void execute() {
-        this.receiver.suspender();
+    public void execute(String usuario) {
+        this.receiver.suspender(usuario);
     }
 }

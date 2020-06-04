@@ -8,7 +8,7 @@ public class CerrarSesión implements ICommand{
     }
 
     @Override
-    public void execute() {
-        this.receiver.cerrarSesion();
+    public void execute(String usuario) {
+        this.receiver.cerrarSesion(usuario);
     }
 }

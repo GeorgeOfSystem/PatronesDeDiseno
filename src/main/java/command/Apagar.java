@@ -8,7 +8,7 @@ public class Apagar implements ICommand {
     }
 
     @Override
-    public void execute() {
-        this.receiver.apagar();
+    public void execute(String usuario) {
+        this.receiver.apagar(usuario);
     }
 }

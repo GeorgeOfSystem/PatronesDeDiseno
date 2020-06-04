@@ -4,30 +4,26 @@ import java.util.Date;
 
 public class Receiver {
 
-    private String usuario;
     private String reiniciar="reiniciado";
     private String apagar="apagado";
     private String cerrarSesion="cerrada la sesión actual";
     private String suspeder ="Suspendido";
 
-    public  Receiver (String usurio){
-        this.usuario = usurio;
-    }
 
-    public void suspender(){
+    public void suspender(String usuario){
         System.out.println("COMMAND > Suspender\t>\t" + suspeder + "\nHora: " + new Date().toString());
         System.out.println("Usario actual: "+ usuario);
     }
 
-    public void apagar(){
+    public void apagar(String usuario){
         System.out.println("COMMAND > Apagar\t>\t" + apagar+ "\nHora: " + new Date().toString());
         System.out.println("Usario actual: "+ usuario);
     }
-    public void reiniciar(){
+    public void reiniciar(String usuario){
         System.out.println("COMMAND > Reiniciar\t>\t" + reiniciar+ "\nHora: " + new Date().toString());
         System.out.println("Usario actual: "+ usuario);
     }
-    public void cerrarSesion(){
+    public void cerrarSesion(String usuario){
         System.out.println("COMMAND > Cerrrar Sesión\t>\t" + cerrarSesion+ "\nHora: " + new Date().toString());
         System.out.println("Usario actual: "+ usuario);
     }

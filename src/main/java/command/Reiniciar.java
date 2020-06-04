@@ -8,7 +8,7 @@ public class Reiniciar implements ICommand {
     }
 
     @Override
-    public void execute() {
-        this.receiver.reiniciar();
+    public void execute(String usuario) {
+        this.receiver.reiniciar(usuario);
     }
 }
