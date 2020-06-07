@@ -25,7 +25,7 @@ public class Ventanilla {
     }
 
     public void setCodigoDelCajero(int codigoDelCajero) {
-        System.out.println("Registando cajero con codigo: " + codigoDelCajero );
+        System.out.println("Registando Cajero con codigo: " + codigoDelCajero );
         this.codigoDelCajero = codigoDelCajero;
     }
 
